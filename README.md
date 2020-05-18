@@ -37,15 +37,15 @@
   ### Backend
    1. Mova para a pasta backend usando `cd backend`
    2. Instale todas dependecias usando `yarn install`
-   4. Execute `yarn knex migrate:latest` para criar as tabelas do banco de dados.
-   5. Execute `yarn dev` para iniciar o servidor.
+   3. Execute `yarn knex migrate:latest` para criar as tabelas do banco de dados.
+   4. Execute `yarn dev` para iniciar o servidor.
   ### Web
    1. Mova para a pasta web usando `cd web`
    2. Instale todas dependecias usando `yarn install`
-   4. Adicione a url de conexão do backend no campo `API_URL` no arquivo `.env.json` na pasta `src`
-   5. Execute `yarn start` para iniciar a aplicação web.
+   3. Adicione a url de conexão do backend no campo `API_URL` no arquivo `.env.json` na pasta `src`
+   4. Execute `yarn start` para iniciar a aplicação web.
   ### Mobile
    1. Mova para a pasta mobile usando `cd mobile`
    2. Instale todas dependecias usando `yarn install`
-   4. Adicione a url de conexão do backend no campo `API_URL` no arquivo `.env.json` na pasta `src`
-   5. Execute `yarn start` para iniciar o expo.
+   3. Adicione a url de conexão do backend no campo `API_URL` no arquivo `.env.json` na pasta `src`
+   4. Execute `yarn start` para iniciar o expo.
